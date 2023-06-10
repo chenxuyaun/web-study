@@ -32,7 +32,7 @@ npx create-nx-workspace [项目名称]
 ```
 nx generate <collection:generator>
 ```
-# 20230608
+# 20230610
 ## 数学微分
 ```
 dy=f'(x)dx
