@@ -31,6 +31,12 @@ npx create-nx-workspace [项目名称]
 ### 代码生成
 ```
 nx generate <collection:generator>
+# npx nx g @nx/react:lib mycomps 依赖
+# npx nx g @nx/react:component map --project mycomps 组件
+```
+### 查看依赖图
+```
+npx nx dep-graph
 ```
 # 20230610
 ## 数学微分
@@ -49,7 +55,7 @@ f(x)约等f(x0)+f(x0)*(x-x变量)
 ### 策略模式
 ### 单一职责模式
 
-# 20230612
+# 20230614
 ## 数学
 ### 罗尔定律
 ### 拉格朗日中值定律
@@ -60,3 +66,12 @@ f(x)约等f(x0)+f(x0)*(x-x变量)
 ## 设计模式
 ### 装饰模式
 ### 代理模式
+# 20230610
+## 数学 
+### 洛必达法则
+## 数据结构
+### 树
+文件：src/utils/tree.ts 总觉的哪里都是问题，但是哪里都找不出来，真的烦
+## 设计模式
+### 工厂方法模式
+### 原型模式
